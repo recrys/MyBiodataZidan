@@ -1,0 +1,39 @@
+::selection { background-color: #00ffbf; color: white; }
+	::-moz-selection { background-color: #E13300; color: white; }
+body{
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-color: #f4f4f4;
+}
+.jumbotron{
+  text-align: center;
+  background-color: rgba(255,255,255, 0.5); important!!
+}
+.display-3{
+  font-family:arial;
+  color:#0099ff;
+}
+#name{
+  float: left;
+  color: blue;
+  font-weight: bold;
+  text-shadow: 2px 1px grey;
+  font-size: 18px;
+
+}
+#cname{
+  float: right;
+  color: blue;
+  font-weight: bold;
+  text-shadow: 2px 1px grey;
+  font-size: 18px;
+}
+.list-group-item{
+  margin: 5px;
+  background-color: rgba(255,255,255, 0.7); important!!
+  box-shadow: 2px 1px grey;
+}
+.img{
+  max-height: 400px;
+  max-width: 400px;
+}
